@@ -7,7 +7,7 @@ def press(num):
     v.set(str(expression))
 
 def equalpress(): 
-    try: 
+    try:
         global expression 
         total = str(eval(expression)) 
         v.set(total) 
