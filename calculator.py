@@ -5,7 +5,7 @@ def press(num):
     global expression
     expression = expression + str(num) 
     v.set(str(expression))
-#king
+#result
 def equalpress(): 
     try:
         global expression 
